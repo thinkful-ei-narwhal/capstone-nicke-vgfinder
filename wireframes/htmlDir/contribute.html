@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../cssDir/wireframe.css">
+  <link rel="stylesheet" href="../cssDir/homepage.css">
+  <title>Contribute</title>
+</head>
+
+<body>
+  <h1>IndieVG</h1>
+  <nav class="topnav">
+    <a href="#/">Home</a>
+    <a href="#Search">Search</a>
+    <a href="#Wishlist">Wishlist</a>
+    <a href="#Contribute" class="active">Contribute</a>
+    <a href="#Signout">Signout</a>
+  </nav>
+  <main role="main">
+
+    <section>
+      <h1>Request: Submit Indie Game</h1>
+      <p>Can't find your favorite indie title?</p>
+      <p>Request a submission</p>
+      <form>
+        <fieldset>
+          <legend>Submit an Indie Game</legend>
+          <label for="Title">Title:</label>
+          <input type="text" id="Title" name="Title">
+          <br>
+          <label for="Genre">Genre:</label>
+          <select name="Genre" id="Genre">
+            <option value="">Action</option>
+            <option value="">MMO</option>
+            <option value="">Horror</option>
+            <option value="">Puzzler</option>
+            <option value="">Stealth</option>
+          </select>
+          <br>
+          <label for="Description">Description:</label>
+          <input type="text" id="Description" name="Description">
+          <br>
+          <label for="Rating">Rating:</label>
+          <input type="text" id="Rating" name="Rating">
+          <br>
+          <label for="Release Date">Release Date:</label>
+          <input type="text" id="Release Date" name="Release Date">
+          <br>
+          <label for="Developer">Developer:</label>
+          <input type="text" id="Developer" name="Developer">
+          <br>
+          <label for="Trailer">Trailer Url:</label>
+          <input type="text" id="Trailer" name="Trailer">
+          <br>
+          <label for="Img1">Gameplay Image Url:</label>
+          <input type="text" id="Img1" name="Img1">
+          <br>
+          <a href="">Add another Image (Max 5) </a>
+          <br>
+          <br>
+          <input type="submit" value="Request Game Addition">
+        </fieldset>
+      </form>
+    </section>
+
+    <section>
+      <h1>Request: Delete Indie Game from Database</h1>
+      <p>Don't think a game is indie enough to be on this site?</p>
+      <p>Request a delete</p>
+      <label for="GameTitle">Game Title:</label>
+      <input type="text" name="GameTitle" id="GameTitle" />
+      <button>Request Delete</button>
+    </section>
+  </main>
+  <footer role="content-info">Footer</footer>
+</body>
+
+</html>

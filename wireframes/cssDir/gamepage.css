@@ -1,0 +1,31 @@
+.game-info {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: row;
+  background-color: antiquewhite;
+}
+
+.details {
+  width: 25%;
+}
+
+.wishlist {
+  height: 50px;
+  background-color: darkgray;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.trailer {
+  background-color: gray;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.approval {
+  padding-bottom: 20px;
+}
